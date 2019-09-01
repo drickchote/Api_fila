@@ -1,0 +1,27 @@
+'/createUser' POST 
+{
+    "nome": "Marcos Adriano",
+    "email": "marcosadriano@gmail.com",
+    "genero": "Masculino"
+}
+
+'/addToLine' POST
+{
+    "id":0
+}
+
+'/findPosition' POST
+{
+    "email":"1@gmal.com"
+}
+
+'/showLine' GET
+{}
+
+'/filterLine' POST
+{
+    "genero":"Feminino"
+}
+
+'popLine' DELETE
+{}
